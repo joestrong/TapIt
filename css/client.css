@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html, body{
+    height: 100%;
+}
+
+.join{
+
+}
+
+.game{
+    display: none;
+}
+
+p{
+    text-align: center;
+    font-size: 100px;
+    padding-top: 100px;
+}

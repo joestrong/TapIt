@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html, body{
+    height: 100%;
+}
+.counters{
+    height: 100%;
+}
+.counter{
+    height: 100%;
+    box-sizing: border-box;
+    width: 33.33%;
+    float: left;
+    padding: 0px 50px;
+}
+.counter .name{
+    height: 10%;
+    text-align: center;
+}
+.counter .barcontainer{
+    height: 90%;
+    border-top: 1px solid #ccc;
+    position: relative;
+}
+.counter .bar{
+    background: #aaa;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.finish{
+    font-size: 100px;
+    color: #0000ff;
+}

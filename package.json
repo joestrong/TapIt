@@ -1,0 +1,22 @@
+{
+    "name": "tapthis",
+    "version": "0.0.1",
+    "author": "Joe Strong",
+    "description": "The fast-tapping game!",
+    "scripts": {
+        "postinstall": "./node_modules/bower/bin/bower install"
+    },
+    "main": "server.js",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/joestrong/tapthis.git"
+    },
+    "dependencies" : {
+        "socket.io": "0.9.x",
+        "express": "3.3.x",
+        "bower": "1.0.x"
+    },
+    "engines": {
+        "node": ">=0.6"
+    }
+}

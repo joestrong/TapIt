@@ -5,6 +5,9 @@
 html, body{
     height: 100%;
 }
+body{
+    font-family: verdana, arial, sans-serif;
+}
 .counters{
     height: 100%;
 }
@@ -16,8 +19,11 @@ html, body{
     padding: 0px 50px;
 }
 .counter .name{
+    box-sizing: border-box;
     height: 10%;
     text-align: center;
+    font-size: 30px;
+    padding: 10px;
 }
 .counter .barcontainer{
     height: 90%;

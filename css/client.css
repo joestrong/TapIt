@@ -8,7 +8,22 @@ html, body{
 }
 
 .join{
-
+	padding: 30% 20px 0;
+}
+.join #name{
+	display: block;
+	font-size: 20px;
+	margin-bottom: 20px;
+	padding: 10px;
+	width: 100%;
+	box-sizing: border-box;
+}
+.join #join{
+	display: block;
+	width: 100%;
+	font-size: 20px;
+	background: #55f355;
+	padding: 10px 0;
 }
 
 .game{

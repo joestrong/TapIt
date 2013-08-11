@@ -27,6 +27,7 @@ html, body{
 }
 
 .game{
+	height: 100%;
     display: none;
     cursor: pointer;
     -webkit-touch-callout: none;

@@ -14,9 +14,9 @@
     "dependencies" : {
         "socket.io": "0.9.x",
         "express": "3.3.x",
-        "bower": "1.0.x"
+        "bower": "1.0.0"
     },
     "engines": {
-        "node": ">=0.6"
+        "node": ">=0.8"
     }
 }

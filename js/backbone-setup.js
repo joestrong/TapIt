@@ -23,7 +23,7 @@ var Counter = Backbone.Model.extend({
     },
     checkTotal: function(){
         var total = this.get('total');
-        if(total >= 10){
+        if(total >= 100){
             this.finish();
         }
     },
